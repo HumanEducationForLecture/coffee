@@ -21,16 +21,16 @@ public class DBManager1 {
 		return conn;
 	}
 
-	public static void close(Connection conn, PreparedStatement pstmt, ResultSet rset) {
+	public static void close(Connection conn, Statement stmt, ResultSet rset) {
 		if (rset != null) {
 			try {
 				rset.close();
 			} catch (SQLException e) {
 			}
 		}
-		if (pstmt != null) {
+		if (stmt != null) {
 			try {
-				pstmt.close();
+				stmt.close();
 			} catch (SQLException e) {
 			}
 		}
@@ -42,11 +42,11 @@ public class DBManager1 {
 		}
 	}
 
-	public static void close(Connection conn, PreparedStatement pstmt) {
+	public static void close(Connection conn, Statement stmt) {
 
-		if (pstmt != null) {
+		if (stmt != null) {
 			try {
-				pstmt.close();
+				stmt.close();
 			} catch (SQLException e) {
 			}
 		}

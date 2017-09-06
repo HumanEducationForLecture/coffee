@@ -23,8 +23,8 @@
 	<div id="breadcrumb">
 		<div class="container">
 			<div class="breadcrumb">
-				<li><a href="index.html">Home</a></li>
-				<li>Portfolio</li>
+				<li><a href="index.jsp">Home</a></li>
+				<li>Order</li>
 			</div>
 		</div>
 	</div>
