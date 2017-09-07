@@ -22,8 +22,8 @@
 	<div id="breadcrumb">
 		<div class="container">	
 			<div class="breadcrumb">							
-				<li><a href="index.html">Home</a></li>
-				<li>About Us</li>			
+				<li><a href="index.jsp">Home</a></li>
+				<li>Login</li>			
 			</div>		
 		</div>	
 	</div>

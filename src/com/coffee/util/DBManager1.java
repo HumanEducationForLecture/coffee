@@ -1,4 +1,4 @@
-package util;
+package com.coffee.util;
 
 import java.sql.*;
 

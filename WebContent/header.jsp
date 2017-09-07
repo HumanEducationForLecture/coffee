@@ -24,19 +24,19 @@
 							<span class="icon-bar"></span>
 						</button>
 						<div class="navbar-brand">
-							<a href="index.html"><h1><span>Com</span>pany</h1></a>
+							<a href="http://localhost:8081/Coffee/index.jsp"><h1><span>Com</span>pany</h1></a>
 						</div>
 					</div>
 					
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="index.jsp" class="active">Home</a></li>
-								<li role="presentation"><a href="login.jsp">Login</a></li>
-								<li role="presentation"><a href="order.do">Order</a></li>								
-								<li role="presentation"><a href="sideMap.jsp">Side Map</a></li>
-								<li role="presentation"><a href="post.jsp">Post</a></li>
-								<li role="presentation"><a href="qna.jsp">QnA</a></li>				
+								<li role="presentation"><a href="http://localhost:8081/Coffee/index.jsp" class="active">Home</a></li>
+								<li role="presentation"><a href="http://localhost:8081/Coffee/login.jsp">Login</a></li>
+								<li role="presentation"><a href="http://localhost:8081/Coffee/order.do">Order</a></li>								
+								<li role="presentation"><a href="http://localhost:8081/Coffee/sideMap.jsp">Side Map</a></li>
+								<li role="presentation"><a href="http://localhost:8081/Coffee/post.jsp">Post</a></li>
+								<li role="presentation"><a href="http://localhost:8081/Coffee/qna.jsp">QnA</a></li>				
 							</ul>
 						</div>
 					</div>						

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.coffee.dao.ProductDAO;
-import com.coffee.dto.ProductVO;
+import com.coffee.dto.ProductDTO;
 
 /**
  * Servlet implementation class ProductListServlet
@@ -35,7 +35,7 @@ public class ProductListServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		ProductDAO pDao=ProductDAO.getInstance();
 		
-		List<ProductVO> productList=pDao.selectAllProducts();
+		List<ProductDTO> productList=pDao.selectAllProducts();
 		request.setAttribute("productList", productList);
 		
 		RequestDispatcher dispatcher =request.getRequestDispatcher("order.jsp");

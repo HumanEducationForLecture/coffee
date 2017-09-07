@@ -1,6 +1,6 @@
 package com.coffee.dto;
 
-public class ProductVO {
+public class ProductDTO {
 	private int code;
 	private String name;
 	private int price;

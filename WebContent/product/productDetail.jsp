@@ -10,13 +10,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Company-HTML Bootstrap theme</title>
 
-<!-- Bootstrap -->
-<!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link href="../css/prettyPhoto.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet" />	
 </head>
 <body>
 
@@ -24,45 +23,29 @@
 		<div class="container">
 			<div class="breadcrumb">
 				<li><a href="index.jsp">Home</a></li>
-				<li>Order</li>
+				<li>Product Detail</li>
 			</div>
 		</div>
 	</div>
 
 	<section id="portfolio">
 		<div class="container">
-			<div class="center">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed
-					do eiusmod tempor incididunt</p>
+			<div class="center" style="font-size:25px">
+				<li><a href="order.do">Order</a></li>
 			</div>
-
-			<ul class="portfolio-filter text-center">
-				<li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
-				<li><a class="btn btn-default" href="#" data-filter=".1">TakeOut</a></li>
-				<li><a class="btn btn-default" href="#" data-filter=".2">Ex) Drip</a></li>
-			</ul>
-			<ul class="portfolio-filter text-center">
-				<li><a class="btn btn-default" href="#" data-filter=".straw">Straw</a></li>
-				<li><a class="btn btn-default" href="#" data-filter=".ice">Ice</a></li>
-				<li><a class="btn btn-default" href="#"	data-filter=".cupHolder">CupHolder</a></li>
-				<li><a class="btn btn-default" href="#"	data-filter=".cupCarrier">CupCarrier</a></li>
-				<li><a class="btn btn-default" href="#"	data-filter=".hot">Hot</a></li>
-				<li><a class="btn btn-default" href="#"	data-filter=".dripper">Dripper</a></li>
-			</ul>
-			<!--/#portfolio-filter-->
 		</div>
 		<div class="container">
 			<div class="">
 				<div class="portfolio-items">
-					<c:forEach var="product" items="${productList }">
-						<div class="portfolio-item apps ${product.code } ${product.kind } col-xs-12 col-sm-4 col-md-3">
+					<c:forEach var="product" items="${productDetail }">
+						<div class="portfolio-item apps col-xs-120 col-sm-40 col-md-3">
 							<div class="recent-work-wrap">
-								<a href="productDetail.do?name=${product.name }"><img class="img-responsive" src="images/product/${product.image }"
+								<a href="#"><img class="img-responsive" src="images/product/${product.image }"
 									alt=""></a>
 								<div class="overlay">
 									<div class="recent-work-inner">
 										<h3>
-											<a href="productDetail.do?name=${product.name }">${product.name }</a>
+											<a href="#">${product.name }</a>
 										</h3>
 										<p>가격:${product.price } / 상세내용 ${product.content }</p>
 										<a class="preview" href="images/product/${product.image }"
