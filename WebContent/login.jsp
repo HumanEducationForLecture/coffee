@@ -9,13 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Company-HTML Bootstrap theme</title>
 
-    <!-- Bootstrap -->	
-    <!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
   <body>
 	

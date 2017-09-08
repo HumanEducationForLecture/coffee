@@ -35,7 +35,7 @@
 								<li role="presentation"><a href="http://localhost:8081/Coffee/login.jsp">Login</a></li>
 								<li role="presentation"><a href="http://localhost:8081/Coffee/order.do">Order</a></li>								
 								<li role="presentation"><a href="http://localhost:8081/Coffee/sideMap.jsp">Side Map</a></li>
-								<li role="presentation"><a href="http://localhost:8081/Coffee/post.jsp">Post</a></li>
+								<li role="presentation"><a href="http://localhost:8081/Coffee/post.do">Post</a></li>
 								<li role="presentation"><a href="http://localhost:8081/Coffee/qna.jsp">QnA</a></li>				
 							</ul>
 						</div>

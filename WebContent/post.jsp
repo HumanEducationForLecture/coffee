@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
@@ -9,14 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Company-HTML Bootstrap theme</title>
 
-    <!-- Bootstrap -->
-    
-    <!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
   <body>
 	
@@ -35,42 +28,18 @@
                  <div class="col-md-8">
                     <div class="blog-item">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-2">
-                                <div class="entry-meta">
-                                    <span id="publish_date">07  JUNY</span>
-                                    <span><i class="fa fa-user"></i> <a href="#">John Doe</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="#">2 Comments</a></span>
-                                    <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
-                                </div>
-                            </div>
-                                
-                            <div class="col-xs-12 col-sm-10 blog-content">
-                                <a href="#"><img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" /></a>
-                                <h4>Consequat bibendum quam liquam viverra</h4>
-                                <p>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</p>
-                                <a class="btn btn-primary readmore">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
+                         <h4>게시판</h4>
+                         <c:forEach var="post" items="${postList}">
+                               <table>
+                               <tr><td><a href="postWrite.do">글 작성</a></td></tr>
+                               <tr><td>번호</td><td>이름</td><td>이메일</td><td><a href="postView.do?num=${post.num }">제목</a></td><td>조회수</td></tr>
+                               <tr><td>${post.num }</td><td>${post.name }</td><td>${post.email}</td><td>${post.title }</td><td>${post.readcount }</td></tr>
+                               </table>
+                            </c:forEach>
                         </div>    
                     </div><!--/.blog-item-->
                         
-                    <div class="blog-item">
-                        <div class="row">
-                             <div class="col-sm-2">
-                                <div class="entry-meta"> 
-                                    <span id="publish_date">07  JUNY</span>
-                                    <span><i class="fa fa-user"></i> <a href="#">John Doe</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="#">2 Comments</a></span>
-                                    <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
-                                </div>
-                            </div>
-                            <div class="col-sm-10 blog-content">
-                                <a href=""><img class="img-responsive img-blog" src="images/3.jpg" width="100%" alt="" /></a>
-                                <h4>Consequat bibendum quam liquam viverra</h4>
-                                <p>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</p>
-                                <a class="btn btn-primary readmore">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>    
-                    </div><!--/.blog-item-->
+                   
                         
                     <ul class="pagination pagination-lg">
                         <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
