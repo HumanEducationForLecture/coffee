@@ -24,13 +24,13 @@
         <div class="carousel slide">      
             <div class="carousel-inner">
             <!-- 가운데 여자그림 -->
-                <div class="item active" style="background-image: url(images/slider/title_coffee1.jpg)" >
+                <div class="item active" style="background-image: url(images/slider/title_coffee1.jpg);height: 40%;" >
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h2 class="animation animated-item-1">Do you wanna <span>Coffee?</span></h2>
-                                    <p class="animation animated-item-2">사무실에서 커피 한잔 할래??<br><br> 원두커피 필요해?? ^^</p>
+                                    <!-- p class="animation animated-item-2">사무실에서 커피 한잔 할래??<br><br> 원두커피 필요해?? ^^</p-->
                                     <!--a class="btn-slide animation animated-item-3" href="#">Read More</a-->
                                 </div>
                             </div>
