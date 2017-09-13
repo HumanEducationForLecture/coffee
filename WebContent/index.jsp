@@ -8,15 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Company-HTML Bootstrap theme</title>
-
-    <!-- Bootstrap -->
-    
-    <!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
   <body>
  
@@ -41,14 +32,13 @@
                                 </div>
                             </div>
  -->                            
+
                         </div>
                     </div>
                 </div><!--/.item-->             
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
     </section><!--/#main-slider-->
-	
-    <!--  -->
 	<div class="feature">
 		<div class="container">
 			<div class="text-center">

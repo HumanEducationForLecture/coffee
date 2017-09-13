@@ -8,21 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Company-HTML Bootstrap theme</title>
-
-    <!-- Bootstrap -->	
-    <!-- =======================================================
-        Theme Name: Company
-        Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
   <body>
+	
 	<div id="breadcrumb">
 		<div class="container">	
 			<div class="breadcrumb">							
-				<li><a href="index.html">Home</a></li>
-				<li>About Us</li>			
+				<li><a href="index.jsp">Home</a></li>
+				<li>Login</li>			
 			</div>		
 		</div>	
 	</div>
