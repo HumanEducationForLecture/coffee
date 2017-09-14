@@ -31,11 +31,6 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-duration: .5s;
 	animation-timing-function: ease;
 	animation-fill-mode: both;  
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 8981e77445bd5baba8bbf4a4afaeb0520b8facc5
 }
 
 .animated.hinge {

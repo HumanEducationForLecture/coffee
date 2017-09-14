@@ -1,4 +1,4 @@
-package com.human.coffee;
+package src.com.human.coffee;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

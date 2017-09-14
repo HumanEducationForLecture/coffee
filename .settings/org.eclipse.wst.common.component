@@ -2,7 +2,7 @@
     <wb-module deploy-name="DTest11">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
-        <property name="context-root" value="DTest11"/>
         <property name="java-output-path" value="/DTest11/build/classes"/>
+        <property name="context-root" value="DTest11"/>
     </wb-module>
 </project-modules>

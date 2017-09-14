@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-<<<<<<< HEAD
     pageEncoding="EUC-KR"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>

@@ -4,19 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<<<<<<< HEAD
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/prettyPhoto.css">
 	<link rel="stylesheet" href="css/style.css" />	
-=======
-<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link href="css/prettyPhoto.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />	
->>>>>>> 8981e77445bd5baba8bbf4a4afaeb0520b8facc5
 <title>Insert title here</title>
 </head>
 <body>
@@ -32,51 +24,34 @@
 							<span class="icon-bar"></span>
 						</button>
 						<div class="navbar-brand">
-<<<<<<< HEAD
-							<a href="index.jsp"><h1><span>Cof</span>fee</h1></a>
-=======
-							<a href="http://localhost:8081/Coffee/index.jsp"><h1><span>Com</span>pany</h1></a>
->>>>>>> 8981e77445bd5baba8bbf4a4afaeb0520b8facc5
+							<a href="http://localhost:8081/DTest11/index.jsp"><h1><span>Cof</span>fee</h1></a>
 						</div>
 					</div>
 					
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
-<<<<<<< HEAD
-								<li role="presentation"><a href="index.jsp" class="active">Home</a></li>
-								<li role="presentation"><a href="login.jsp">Join Us</a></li>
-								<li role="presentation"><a href="order.jsp">Order</a></li>								
-								<li role="presentation"><a href="siteMap.jsp">Site Map</a></li>
-								<li role="presentation"><a href="post.jsp">Post</a></li>
-								<li role="presentation"><a href="qna.jsp">QnA</a></li>	
+								<li role="presentation"><a href="http://localhost:8081/DTest11/index.jsp" class="active">Home</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/login.jsp">Login</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/order.jsp">Order</a></li>								
+								<li role="presentation"><a href="http://localhost:8081/DTest11/sideMap.jsp">Site Map</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/post.jsp">Post</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/qna.jsp">QnA</a></li>	
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle"
 										data-toggle="dropdown" role="button" aria-haspopup="true"
-										aria-expanded="false">Sign In<span class="caret"></span></a>
+										aria-expanded="false">접속하기<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="login1.jsp" onClick="window.open('login1.jsp','제발','width=400, height=260, toolbar=no, menubar=no, scrollbars=no, resizable=no, left=800,top=300');return false;">Sign In</a></li>
-										<li><a href="join1.jsp">Sign Up</a></li>
+										<li><a href="http://localhost:8081/DTest11/login1.jsp" onClick="window.open('login1.jsp','제발','width=400, height=260, toolbar=no, menubar=no, scrollbars=no, resizable=no, left=800,top=300');return false;">로그인</a></li>
+										<li><a href="http://localhost:8081/DTest11/join1.jsp">회원가입</a></li>
 									</ul>
 								</li> 			
-=======
-								<li role="presentation"><a href="http://localhost:8081/Coffee/index.jsp" class="active">Home</a></li>
-								<li role="presentation"><a href="http://localhost:8081/Coffee/login.jsp">Login</a></li>
-								<li role="presentation"><a href="http://localhost:8081/Coffee/order.do">Order</a></li>								
-								<li role="presentation"><a href="http://localhost:8081/Coffee/sideMap.jsp">Side Map</a></li>
-								<li role="presentation"><a href="http://localhost:8081/Coffee/post.do">Post</a></li>
-								<li role="presentation"><a href="http://localhost:8081/Coffee/qna.jsp">QnA</a></li>				
->>>>>>> 8981e77445bd5baba8bbf4a4afaeb0520b8facc5
 							</ul>
 						</div>
 					</div>						
 				</div>
 			</div>	
-<<<<<<< HEAD
-		</nav>	
-=======
 		</nav>		
->>>>>>> 8981e77445bd5baba8bbf4a4afaeb0520b8facc5
 	</header>
 </body>
 </html>

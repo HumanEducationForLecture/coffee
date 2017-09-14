@@ -45,30 +45,30 @@
 				<div class="col-md-3">
 					<!-- 스크롤 내렸을때 애니메이션 조절하는 부분 -->
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
-						<i class="fa fa-book"></i>	
-						<h2>Full Responsive</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<i class="fa fa-coffee" aria-hidden="true"></i>	
+						<h2>쇼핑몰</h2>
+						<p>원두 및 커피 도구들을 살 수 있어요.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
-						<i class="fa fa-laptop"></i>	
-						<h2>Retina Ready</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<i class="fa fa-coffee" aria-hidden="true"></i>	
+						<h2>배달</h2>
+						<p>가까운 가맹점에서 커피를 배달해드립니다~</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" >
-						<i class="fa fa-heart-o"></i>	
-						<h2>Full Responsive</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<h2>개인회원 가입</h2>
+						<p>가입하시믄.. 마일리지를...</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
-						<i class="fa fa-cloud"></i>	
-						<h2>Friendly Code</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<i class="fa fa-coffee" aria-hidden="true"></i>
+						<h2>가맹점</h2>
+						<p>저절로 홍보가 되는.....</p>
 					</div>
 				</div>
 			</div>
