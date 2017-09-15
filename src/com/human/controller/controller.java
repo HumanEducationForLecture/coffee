@@ -1,4 +1,5 @@
-package src;
+package com.human.controller;
+
 
 import java.io.IOException;
 import javax.servlet.ServletException;

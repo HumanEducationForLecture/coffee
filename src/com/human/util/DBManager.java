@@ -1,4 +1,4 @@
-package src.com.human.DB;
+package com.human.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,16 +7,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class DBManager {
-
-	private static String url = "jdbc:oracle:thin:@localhost:1521:XE";
-	private static String uid = "human";
-	private static String pwd = "human";
+	private static String url = "jdbc:mysql://localhost:3306/coffee";
+	private static String uid = "root";
+	private static String pwd = "apmsetup";
 
 	// 카넥션 얻어오기
 	public static Connection getConnection() {
 		Connection conn = null;
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url, uid, pwd);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -24,8 +23,7 @@ public class DBManager {
 		return conn;
 	}
 
-	public static void close(Connection conn, PreparedStatement pstmt,
-			ResultSet rset) {
+	public static void close(Connection conn, PreparedStatement pstmt, ResultSet rset) {
 		if (rset != null) {
 			try {
 				rset.close();
@@ -62,6 +60,4 @@ public class DBManager {
 		}
 	}
 }
-
-
 
