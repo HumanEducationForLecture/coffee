@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
@@ -28,11 +28,11 @@
                  <div class="col-md-8">
                     <div class="blog-item">
                         <div class="row">
-                         <h4>°Ô½ÃÆÇ</h4>
+                         <h4>ê²Œì‹œíŒ</h4>
                          <c:forEach var="post" items="${postList}">
                                <table>
-                               <tr><td><a href="postWrite.do">±Û ÀÛ¼º</a></td></tr>
-                               <tr><td>¹øÈ£</td><td>ÀÌ¸§</td><td>ÀÌ¸ŞÀÏ</td><td><a href="postView.do?num=${post.num }">Á¦¸ñ</a></td><td>Á¶È¸¼ö</td></tr>
+                               <tr><td><a href="postWrite.do">ê¸€ ì‘ì„±</a></td></tr>
+                               <tr><td>ë²ˆí˜¸</td><td>ì´ë¦„</td><td>ì´ë©”ì¼</td><td><a href="postView.do?num=${post.num }">ì œëª©</a></td><td>ì¡°íšŒìˆ˜</td></tr>
                                <tr><td>${post.num }</td><td>${post.name }</td><td>${post.email}</td><td>${post.title }</td><td>${post.readcount }</td></tr>
                                </table>
                             </c:forEach>

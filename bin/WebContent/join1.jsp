@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@
 	<div id="breadcrumb">
 		<div class="container">	
 			<div class="breadcrumb">							
-				<li>È¸¿ø°¡ÀÔ</li>			
+				<li>íšŒì›ê°€ìž…</li>			
 			</div>		
 		</div>	
 	</div>
@@ -32,30 +32,30 @@
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top:20px;">
 			<form method="post" action="joinAction.jsp">
-				<h3 style="text-align: center;">È¸¿ø°¡ÀÔ È­¸é</h3>
+				<h3 style="text-align: center;">íšŒì›ê°€ìž… í™”ë©´</h3>
 				<div class="from-group">
-					<input type="text" class="form-control" placeholder="¾ÆÀÌµð" name="userID" maxlength="20">
+					<input type="text" class="form-control" placeholder="ì•„ì´ë””" name="userID" maxlength="20">
 				</div>
 				<div class="from-group">
-					<input type="password" class="form-control" placeholder="ºñ¹Ð¹øÈ£" name="userPassword" maxlength="20">
+					<input type="password" class="form-control" placeholder="ë¹„ë°€ë²ˆí˜¸" name="userPassword" maxlength="20">
 				</div>
 				<div class="from-group">
-					<input type="text" class="form-control" placeholder="ÀÌ¸§" name="userName" maxlength="20">
+					<input type="text" class="form-control" placeholder="ì´ë¦„" name="userName" maxlength="20">
 				</div>
 				<div class="from-group" style="text-align:center;">
 					<div class="btn-group" data-toggle="buttons">
 						<label class="btn btn-primary active">
-							<input type="radio" name="userGender" autocomplete="off" value="³²ÀÚ" checked>³²ÀÚ
+							<input type="radio" name="userGender" autocomplete="off" value="ë‚¨ìž" checked>ë‚¨ìž
 						</label>
 						<label class="btn btn-primary">
-							<input type="radio" name="userGender" autocomplete="off" value="¿©ÀÚ" checked>¿©ÀÚ
+							<input type="radio" name="userGender" autocomplete="off" value="ì—¬ìž" checked>ì—¬ìž
 						</label>
 					</div>
 				</div>
 				<div class="from-group">
-					<input type="email" class="form-control" placeholder="ÀÌ¸ÞÀÏ" name="userEmail" maxlength="20">
+					<input type="email" class="form-control" placeholder="ì´ë©”ì¼" name="userEmail" maxlength="20">
 				</div>
-				<input type="submit" class="btn btn-primary form-control" value="·Î±×ÀÎ">
+				<input type="submit" class="btn btn-primary form-control" value="ë¡œê·¸ì¸">
 			</form> 
 			</div>
 			</div>

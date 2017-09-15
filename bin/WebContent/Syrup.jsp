@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +13,7 @@
 	
 	<div id="breadcrumb">
 		<div class="container">	
-			<div class="breadcrumb">					
-					
+			<div class="breadcrumb">		
 				<li class="active"><a href="index.jsp">Been</a></li>
 				<li><a href="index.jsp">Grinder</a></li>
 				<li><a href="Syrup.jsp">Syrup</a></li>
@@ -41,7 +40,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active" align="Center">
     <h2>Been</h2>
-      <a href="Syrup.jsp"><img src="images/¿øµÎ1.jpg" alt="#"></a>
+      <a href="Syrup.jsp"><img src="images/ì›ë‘1.jpg" alt="#"></a>
       <div class="carousel-caption">
         
         
@@ -49,7 +48,7 @@
     </div>
     <div class="item" align="Center">
     <h2>Grinder</h2>
-      <img src="images/±×¶óÀÎ´õ1.jpg" alt="#">
+      <img src="images/ê·¸ë¼ì¸ë”1.jpg" alt="#">
       <div class="carousel-caption">
         
        
@@ -57,7 +56,7 @@
     </div>
     <div class="item" align="Center">
     <h2>Syrup</h2>
-      <a href="Syrup.jsp"><img src="images/½Ã·´1.jpg" alt="#"></a>
+      <a href="Syrup.jsp"><img src="images/ì‹œëŸ½1.jpg" alt="#"></a>
       <div class="carousel-caption">
         
         
@@ -65,13 +64,13 @@
     </div>
     <div class="item" align="Center">
       <h2>Equipment</h2>
-      <img src="images/ÄÅÈ¦´õ1.jpg" alt="#">
+      <img src="images/ì»µí™€ë”1.jpg" alt="#">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="item" align="Center">
       <h2>Etc</h2>
-      <img src="images/¸ÔÀ»°Å1.jpg" alt="#">
+      <img src="images/ë¨¹ì„ê±°1.jpg" alt="#">
       <div class="carousel-caption">
 
       </div>

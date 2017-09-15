@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
@@ -14,14 +14,14 @@
 	<section id="main-slider" class="no-margin">
         <div class="carousel slide">      
             <div class="carousel-inner">
-            <!-- °¡¿îµ¥ ¿©ÀÚ±×¸² -->
+            <!-- ê°€ìš´ë° ì—¬ìžê·¸ë¦¼ -->
                 <div class="item active" style="background-image: url(images/slider/title_coffee1.jpg);height: 40%;" >
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
                                     <h2 class="animation animated-item-1">Do you wanna <span>Coffee?</span></h2>
-                                    <!-- p class="animation animated-item-2">»ç¹«½Ç¿¡¼­ Ä¿ÇÇ ÇÑÀÜ ÇÒ·¡??<br><br> ¿øµÎÄ¿ÇÇ ÇÊ¿äÇØ?? ^^</p-->
+                                    <!-- p class="animation animated-item-2">ì‚¬ë¬´ì‹¤ì—ì„œ ì»¤í”¼ í•œìž” í• ëž˜??<br><br> ì›ë‘ì»¤í”¼ í•„ìš”í•´?? ^^</p-->
                                     <!--a class="btn-slide animation animated-item-3" href="#">Read More</a-->
                                 </div>
                             </div>
@@ -42,33 +42,35 @@
 	<div class="feature">
 		<div class="container">
 			<div class="text-center">
-				<div class="col-md-3">
-					<!-- ½ºÅ©·Ñ ³»·ÈÀ»¶§ ¾Ö´Ï¸ÞÀÌ¼Ç Á¶ÀýÇÏ´Â ºÎºÐ -->
-					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
+				<div class="col-md-3" height="150px">
+					<!-- ìŠ¤í¬ë¡¤ ë‚´ë ¸ì„ë•Œ ì• ë‹ˆë©”ì´ì…˜ ì¡°ì ˆí•˜ëŠ” ë¶€ë¶„ -->
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<a href="http://localhost:8081/DTest11/order.jsp">
 						<i class="fa fa-coffee" aria-hidden="true"></i>	
-						<h2>¼îÇÎ¸ô</h2>
-						<p>¿øµÎ ¹× Ä¿ÇÇ µµ±¸µéÀ» »ì ¼ö ÀÖ¾î¿ä.</p>
+						<h2>ì‡¼í•‘ëª°</h2>
+						<!--p>ì›ë‘ ë° ì»¤í”¼ ë„êµ¬ë“¤ì„ ì‚´ ìˆ˜ ìžˆì–´ìš”.</p-->
+						</a>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
-						<i class="fa fa-coffee" aria-hidden="true"></i>	
-						<h2>¹è´Þ</h2>
-						<p>°¡±î¿î °¡¸ÍÁ¡¿¡¼­ Ä¿ÇÇ¸¦ ¹è´ÞÇØµå¸³´Ï´Ù~</p>
+						<i class="fa fa-motorcycle" aria-hidden="true"></i>
+						<h2>ë°°ë‹¬</h2>
+						<!--p>ê°€ê¹Œìš´ ê°€ë§¹ì ì—ì„œ ì»¤í”¼ë¥¼ ë°°ë‹¬í•´ë“œë¦½ë‹ˆë‹¤~</p-->
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" >
 						<i class="fa fa-user" aria-hidden="true"></i>
-						<h2>°³ÀÎÈ¸¿ø °¡ÀÔ</h2>
-						<p>°¡ÀÔÇÏ½Ã¹È.. ¸¶ÀÏ¸®Áö¸¦...</p>
+						<h2>ê°œì¸íšŒì› ê°€ìž…</h2>
+						<!--p>ê°€ìž…í•˜ì‹œë¯„.. ë§ˆì¼ë¦¬ì§€ë¥¼...</p-->
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
-						<i class="fa fa-coffee" aria-hidden="true"></i>
-						<h2>°¡¸ÍÁ¡</h2>
-						<p>ÀúÀý·Î È«º¸°¡ µÇ´Â.....</p>
+						<i class="fa fa-handshake-o" aria-hidden="true"></i>
+						<h2>ê°€ë§¹ì </h2>
+						<!--p>ì €ì ˆë¡œ í™ë³´ê°€ ë˜ëŠ”.....</p-->
 					</div>
 				</div>
 			</div>
