@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<%@ include file="../header.jsp" %>  
+<%@ include file="header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -182,7 +182,7 @@
     </section><!--/#conatcat-info-->
 	
 	
-<%@include file="../footer.jsp" %>
+<%@include file="footer.jsp" %>
 	
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
