@@ -35,7 +35,7 @@
 								<li role="presentation"><a href="http://localhost:8081/DTest11/login.jsp">Login</a></li>
 								<li role="presentation"><a href="http://localhost:8081/DTest11/order.jsp">Order</a></li>								
 								<li role="presentation"><a href="http://localhost:8081/DTest11/sideMap.jsp">Site Map</a></li>
-								<li role="presentation"><a href="http://localhost:8081/DTest11/post.jsp">Post</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/buyList.jsp">BuyList</a></li>
 								<li role="presentation"><a href="http://localhost:8081/DTest11/qna.jsp">QnA</a></li>	
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle"

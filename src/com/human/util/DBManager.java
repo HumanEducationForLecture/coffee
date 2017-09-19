@@ -1,4 +1,4 @@
-package com.human.util;
+package src.com.human.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

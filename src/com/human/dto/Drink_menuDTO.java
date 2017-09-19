@@ -1,4 +1,4 @@
-package com.human.dto;
+package src.com.human.dto;
 
 import java.sql.Timestamp;
 

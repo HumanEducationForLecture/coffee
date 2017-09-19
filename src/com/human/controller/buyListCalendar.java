@@ -1,4 +1,4 @@
-package com.human.controller;
+package src.com.human.controller;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.human.dao.Custom_accmulateDAO;
-import com.human.dto.Custom_accmulateDTO;
+import src.com.human.dao.Custom_accmulateDAO;
+import src.com.human.dto.Custom_accmulateDTO;
 
 /**
  * Servlet implementation class buyListCalendar
@@ -62,6 +62,7 @@ public class buyListCalendar extends HttpServlet {
 		request.setAttribute("start", start);
 		request.setAttribute("newLine", newLine);
 		request.setAttribute("intToday", intToday);
+		System.out.println(currentTime.substring(0,3));
 		
 		
 		RequestDispatcher dispatcher=request.getRequestDispatcher("buyList.jsp");

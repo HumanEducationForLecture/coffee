@@ -1,4 +1,4 @@
-package com.human.dto;
+package src.com.human.dto;
 
 public class SupplieDTO {
 	private String SP_id;

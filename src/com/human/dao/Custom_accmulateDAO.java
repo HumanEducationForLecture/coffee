@@ -1,4 +1,4 @@
-package com.human.dao;
+package src.com.human.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.human.dto.Custom_accmulateDTO;
-import com.human.util.DBManager;
+import src.com.human.dto.Custom_accmulateDTO;
+import src.com.human.util.DBManager;
 
 public class Custom_accmulateDAO {
 	public Custom_accmulateDAO(){
@@ -22,7 +22,7 @@ public class Custom_accmulateDAO {
 		return instance;
 	}
 	public List<Custom_accmulateDTO> selectCA_count(){
-		String sql="select U_shopName,CA_date from Custom_accmulateEX where CA_shopCount>0";
+		String sql="select U_shopName,CA_date from custom_accumulateEX where CA_shopCount>0";
 		List<Custom_accmulateDTO> list=new ArrayList<Custom_accmulateDTO>();
 		Connection conn=null;
 		PreparedStatement pstmt=null;
