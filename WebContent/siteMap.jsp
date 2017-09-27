@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<%@ include file="../header.jsp" %>  
+<%@ include file="header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -154,7 +154,7 @@
 	
 
 	
-<%@ include file="../footer.jsp" %>  
+<%@ include file="footer.jsp" %>  
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	

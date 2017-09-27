@@ -3,14 +3,14 @@ package basket;
 
 import java.io.Serializable;
 
-public class USERDTO implements Serializable{
+public class UserDTO implements Serializable{
 	
 	private String u_id;
 	private String p_code;
 	private int b_amount;
 	
-	//ÃµÃ¼ÀûÀÎ ¼öÁ¤ÇÊ¿ä
-	public USERDTO() {
+	//ÃµÃ¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ê¿ï¿½
+	public UserDTO() {
 		super();
 	}
 	public String getu_id() {

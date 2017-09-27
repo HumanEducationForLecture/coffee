@@ -28,8 +28,8 @@ public class test extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		USERDTO dto=new USERDTO();
-		USERDAO dao=new USERDAO();
+		UserDTO dto=new UserDTO();
+		UserDao dao=new UserDao();
 		response.setCharacterEncoding("UTF-8");	
 		dto.setu_id(request.getParameter("id"));
 		dto.setp_code(request.getParameter("code"));
