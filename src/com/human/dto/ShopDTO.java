@@ -1,4 +1,4 @@
-package com.human.dto;
+package src.com.human.dto;
 
 public class ShopDTO {
 	private String U_id;

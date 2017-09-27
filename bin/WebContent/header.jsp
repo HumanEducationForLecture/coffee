@@ -1,11 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -36,18 +34,16 @@
 								<li role="presentation"><a href="http://localhost:8081/DTest11/index.jsp" class="active">Home</a></li>
 								<li role="presentation"><a href="http://localhost:8081/DTest11/login.jsp">Login</a></li>
 								<li role="presentation"><a href="http://localhost:8081/DTest11/order.jsp">Order</a></li>								
-
-								<li role="presentation"><a href="http://localhost:8081/DTest11/siteMap.jsp">Site Map</a></li>
-								<li role="presentation"><a href="http://localhost:8081/DTest11/post.jsp">Post</a></li>
-
+								<li role="presentation"><a href="http://localhost:8081/DTest11/sideMap.jsp">Site Map</a></li>
+								<li role="presentation"><a href="http://localhost:8081/DTest11/buyList.jsp">BuyList</a></li>
 								<li role="presentation"><a href="http://localhost:8081/DTest11/qna.jsp">QnA</a></li>	
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle"
 										data-toggle="dropdown" role="button" aria-haspopup="true"
-										aria-expanded="false">ì ‘ì†í•˜ê¸°<span class="caret"></span></a>
+										aria-expanded="false">Á¢¼ÓÇÏ±â<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://localhost:8081/DTest11/login1.jsp" onClick="window.open('login1.jsp','ì œë°œ','width=400, height=260, toolbar=no, menubar=no, scrollbars=no, resizable=no, left=800,top=300');return false;">ë¡œê·¸ì¸</a></li>
-										<li><a href="http://localhost:8081/DTest11/join1.jsp">íšŒì›ê°€ì…</a></li>
+										<li><a href="http://localhost:8081/DTest11/login1.jsp" onClick="window.open('login1.jsp','Á¦¹ß','width=400, height=260, toolbar=no, menubar=no, scrollbars=no, resizable=no, left=800,top=300');return false;">·Î±×ÀÎ</a></li>
+										<li><a href="http://localhost:8081/DTest11/join1.jsp">È¸¿ø°¡ÀÔ</a></li>
 									</ul>
 								</li> 			
 							</ul>

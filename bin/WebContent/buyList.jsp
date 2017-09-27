@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
-<%@ include file="header.jsp"%>
-
+	pageEncoding="utf-8"%>
+<%@ include file="../header.jsp"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Calendar"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -21,13 +20,13 @@
 		month = Integer.parseInt(strMonth);
 	} else {
 	}
-	//����/�� ����
+	//년도/월 셋팅
 	cal.set(year, month, 1);
 	int startDay = cal.getMinimum(java.util.Calendar.DATE);
 	int endDay = cal.getActualMaximum(java.util.Calendar.DAY_OF_MONTH);
 	int start = cal.get(java.util.Calendar.DAY_OF_WEEK);
 	int newLine = 0;
-	//�ㅻ�� ��吏� ����.
+	//오늘 날짜 저장.
 
 	Calendar todayCal = Calendar.getInstance();
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyMMdd");
@@ -63,12 +62,11 @@
 				<table width="100%" border="0" cellspacing="1" cellpadding="1">
 					<tr>
 						<td align="right"><input type="button"
-													onclick="javascript:location.href='<c:url value='/post.jsp' />'"
-							value="�ㅻ��" /></td>
-
+							onclick="javascript:location.href='<c:url value='/buyList.jsp' />'"
+							value="오늘" /></td>
 					</tr>
 				</table>
-				<!--��吏� �ㅻ�寃��댁��  -->
+				<!--날짜 네비게이션  -->
 				<table width="100%" border="0" cellspacing="1" cellpadding="1"
 					id="KOO" bgcolor="#F3F9D7" style="border: 1px solid #CED99C">
 
@@ -82,32 +80,35 @@
 								<tr>
 									<td align="center"><a
 										href="<c:url value='/buyList.jsp' />?year=${year -1}&amp;month=${month}"
-
-										target="_self"> <b>&lt;&lt;</b> <!-- �댁���� -->
-									</a> <c:choose>
-
+										target="_self"> <b>&lt;&lt;</b> <!-- 이전해 -->
+									</a> 
+									<c:choose>
 											<c:when test="${month > 0 }">
 												<a
 													href="<c:url value='/buyList.jsp' />?year=${year -1}&amp;month=${month-1}"
-													target="_self"> <b>&lt;</b> <!-- �댁���� -->
+													target="_self"> <b>&lt;</b> <!-- 이전달 -->
 												</a>
 											</c:when>
 											<c:otherwise>
 												<b>&lt;</b>
 											</c:otherwise>
-
-										</c:choose> <font color="black">&nbsp;&nbsp; ${year}�� ${month+1}��
-											&nbsp;&nbsp; </font> <c:when test="${month <11 }">
-											<a
+										</c:choose> 
+										<font color="black">&nbsp;&nbsp; ${year}년 ${month+1}월
+											&nbsp;&nbsp; </font> 
+										<c:choose>
+											<c:when test="${month <11 }">
+												<a
 												href="<c:url value='/buyList.jsp' />?year=${year}&amp;month=${month+1}"
-												target="_self"> <!-- �ㅼ���� --> <b>&gt;</b>
-											</a>
-										</c:when> <c:otherwise>
-											<b>&gt;</b>
-										</c:otherwise> <a
-
+												target="_self"> <!-- 다음달 --> <b>&gt;</b>
+												</a>
+											</c:when> 
+											<c:otherwise>
+												<b>&gt;</b>
+											</c:otherwise> 
+										</c:choose>
+										<a
 										href="<c:url value='/buyList.jsp' />?year=${year+1}&amp;month=${month}"
-										target="_self"> <!-- �ㅼ���� --> <b>&gt;&gt;</b>
+										target="_self"> <!-- 다음해 --> <b>&gt;&gt;</b>
 									</a></td>
 								</tr>
 							</table>
@@ -120,27 +121,27 @@
 						<TR bgcolor="#CECECE">
 							<TD width='100px'>
 								<DIV align="center">
-									<font color="red">��</font>
+									<font color="red">일</font>
 								</DIV>
 							</TD>
 							<TD width='100px'>
-								<DIV align="center">��</DIV>
+								<DIV align="center">월</DIV>
 							</TD>
 							<TD width='100px'>
-								<DIV align="center">��</DIV>
+								<DIV align="center">화</DIV>
 							</TD>
 							<TD width='100px'>
-								<DIV align="center">��</DIV>
+								<DIV align="center">수</DIV>
 							</TD>
 							<TD width='100px'>
-								<DIV align="center">紐�</DIV>
+								<DIV align="center">목</DIV>
 							</TD>
 							<TD width='100px'>
-								<DIV align="center">湲�</DIV>
+								<DIV align="center">금</DIV>
 							</TD>
 							<TD width='100px'>
 								<DIV align="center">
-									<font color="#529dbc">��</font>
+									<font color="#529dbc">토</font>
 								</DIV>
 							</TD>
 						</TR>
@@ -197,7 +198,7 @@
 								</c:if>
 								<td valign='top' align='left' margin-left=10px height='92px'
 									bgcolor='${backColor }' nowrap><font color='${color}'>&nbsp;
-										${status.count} </font> <BR> <font color='black'> <!-- 嫄곕���댁���� ���� 遺�遺� ���� -->
+										${status.count} </font> <BR> <font color='black'> <!-- 거래내역이 있는 부분 표시 -->
 								</font><BR></td>
 							${newLine+1 }
 								
@@ -230,7 +231,7 @@
 		</form>
 	</div>
 
-	<%@ include file="footer.jsp"%>
+	<%@ include file="../footer.jsp"%>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>
 	<script src="js/jquery.js"></script>

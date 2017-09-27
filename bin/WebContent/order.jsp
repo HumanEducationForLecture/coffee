@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-<%@ include file="header.jsp" %>  
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ include file="../header.jsp" %>  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,7 +57,7 @@
     </div>
     <div class="item" align="Center">
     <h2>Grinder</h2>
-      <img src="images/ê·¸ë¼ì¸ë”1.jpg" alt="#">
+      <img src="images/±×¶óÀÎ´õ1.jpg" alt="#">
       <div class="carousel-caption">
         
        
@@ -65,7 +65,7 @@
     </div>
     <div class="item" align="Center">
     <h2>Syrup</h2>
-      <a href="Syrup.jsp"><img src="images/ì‹œëŸ½1.jpg" alt="#"></a>
+      <a href="Syrup.jsp"><img src="images/½Ã·´1.jpg" alt="#"></a>
       <div class="carousel-caption">
         
         
@@ -73,13 +73,13 @@
     </div>
     <div class="item" align="Center">
       <h2>Equipment</h2>
-      <img src="images/ì»µí™€ë”1.jpg" alt="#">
+      <img src="images/ÄÅÈ¦´õ1.jpg" alt="#">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="item" align="Center">
       <h2>Etc</h2>
-      <img src="images/ë¨¹ì„ê±°1.jpg" alt="#">
+      <img src="images/¸ÔÀ»°Å1.jpg" alt="#">
       <div class="carousel-caption">
 
       </div>
@@ -196,7 +196,7 @@
 	</div>
 	
 	
-<%@ include file="footer.jsp" %>  
+<%@ include file="../footer.jsp" %>  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
